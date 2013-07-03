@@ -1,8 +1,9 @@
 # IMAP to IMAP migration script/howto
 
-IMAP to IMAP migration with ImapSync and a quick PHP script (howto)
-Works out of the box with Google Mail and other major mail providers.
-Requires [[https://github.com/imapsync/imapsync|imapsync]], likes GNU Screen.
+IMAP to IMAP migration with ImapSync and a quick PHP script (howto). 
+
+Works out of the box with Google Mail and other major mail providers. 
+Requires ImapSync, do not dislikes GNU Screen.
 
 ## Setup
 
@@ -26,7 +27,7 @@ perl -MCPAN -e 'install Authen::NTLM'
 perl -MCPAN -e 'install Time::HiRes' 
 ```
 
-* Download and install [[https://github.com/imapsync/imapsync|imapsync]] >= 1.480 (dc7395e)
+* Download and install [ImapSync](https://github.com/imapsync/imapsync) >= 1.480 (dc7395e)
 * Prepare pseudo-csv file as explained later) 
 * Configure host and domain name in the script
 * Open a screen and launch the script:
